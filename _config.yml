@@ -1,0 +1,25 @@
+title: hoodirony_bangla
+name: null
+description: null
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hoodironybangla.bongoarchive.org/" # the base hostname & protocol for your site, e.g. http://example.com
+
+header_img: /media/hoodirony_bangla.jpg
+ig_username: hoodirony_bangla
+ig_category: Artist
+ig_website: null
+
+footer_website: bongoarchive.org
+
+# Build settings
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: diptanilsaha/jekyll-theme-instagram
+
+theme_config:
+  archive: true
+
+include:
+  - media
